@@ -28,5 +28,7 @@ Packages: pandas, numpy, spaCy, NLTK, sklearn, matplotlib, pdfplumber
 
 ### Model Performance
 * 
+![alt text](images/sentiment_corr.png)
+
 
 
