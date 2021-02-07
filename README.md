@@ -24,11 +24,9 @@ Packages: pandas, numpy, spaCy, NLTK, sklearn, matplotlib, pdfplumber
 
 ### Model Building
 * 
-
-### Model Performance
 ![alt text](images/fed_crisis_periods.png)
 
-
+### Model Performance
 * 
 
 
