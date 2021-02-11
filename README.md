@@ -14,12 +14,11 @@ Packages: pandas, numpy, spaCy, NLTK, sklearn, matplotlib, pdfplumber
 
 ### Data Cleaning
 * Extracted pdfs from the Federal Reserve website (https://www.federalreserve.gov/monetarypolicy/)
-* Then on my local computer organized each pdf into its respective publication year.  Separately each file was looped through in a list and scraped, preprocessed for html symbols and after removing common words was tokenzied.  
+* Then on my local computer organized each pdf into its respective publication year.  Separately each file was looped through in a list and scraped with the help of the pdfplumber library, preprocessed for html symbols and after removing common words was tokenzied.  
 * Each file tokenized was put into a separate row in a consolidated dataframe.
 
-
 ### EDA
-
+* Parsing through 30 years of FOMC (Federal Open Market Committee) meetings minutes, which includes roughly 8 meetings per year.
 ![alt text](images/fomc_top_words.png)
 
 ### Model Building
@@ -27,7 +26,7 @@ Packages: pandas, numpy, spaCy, NLTK, sklearn, matplotlib, pdfplumber
 ![alt text](images/fed_crisis_periods.png)
 
 ### Model Performance
-* 
+* Our sentiment moving average explained 42% of the S&P500 price change over this period.
 ![alt text](images/sentiment_corr.png)
 
 
