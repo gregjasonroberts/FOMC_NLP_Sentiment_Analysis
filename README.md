@@ -11,6 +11,7 @@ Using spaCy and NLTK along with a Bag of Words approach, this notebook combed th
 Python Version: 3.7  
 Environment: Google Colab  
 Packages: pandas, numpy, spaCy, NLTK, sklearn, matplotlib, pdfplumber
+
 Source data: Fed minutes ((https://www.federalreserve.gov/monetarypolicy/); Loughran-McDonald (https://sraf.nd.edu/textual-analysis/resources/#LM_10X_Summaries
 
 ### Data Cleaning
@@ -19,7 +20,9 @@ Source data: Fed minutes ((https://www.federalreserve.gov/monetarypolicy/); Loug
 * Each file tokenized was put into a separate row in a consolidated dataframe.
 
 ### EDA
-* Parsing through 30 years of FOMC (Federal Open Market Committee) meetings minutes, which includes roughly 8 meetings per year.
+* Parsing through 30 years of FOMC (Federal Open Market Committee) meetings minutes, which includes roughly 
+8 meetings per year.
+
 ![alt text](images/fomc_top_words.png)
 
 ### Model Building
